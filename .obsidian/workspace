@@ -1,0 +1,82 @@
+{
+  "main": {
+    "id": "0dd6126130df4f8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "9eaa690440666d0c",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "coding/Python库.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2c5e282f556fd47f",
+    "type": "split",
+    "children": [
+      {
+        "id": "572a5ef671c2d235",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "34e00a29e90a92dd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "553a9fd6c7f266c0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0a93190f4fc5a728",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2c2d88eca32e13f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07be88004b7a1d92",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "coding/Python库.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "coding/Python库.md",
+    "coding/statsmodels.md",
+    "algorithm/Alias Sample Method 别名采样.md",
+    "模型/时间序列处理.md",
+    "概念/时间序列-平稳性.md"
+  ]
+}
