@@ -97,3 +97,51 @@ data.show(100, false)
 ```
 
 - <mark>传入的时间戳是单位是ms</mark>
+
+
+
+
+
+byte
+```python
+# -*- coding: UTF-8 -*-
+from pykafkaclient.kafka_proxy2.kafka_proxy import KafkaProxy
+import json
+import time
+
+cluster_name = 'kafka_risc_lf'  # cluster名称
+topic = 'security_verification'  # topic名称
+consumer_group = 'rc_alg_test'  # consumer group名称
+search_time = '2020-09-29 18:25:00'  # 指定的时间，字符串类型
+# search_time = 1562564700000        # 指定的时间，linux时间戳，数字类型
+
+client = KafkaProxy(cluster_name=cluster_name, topic=topic, consumer_group=consumer_group,
+                    psm='toutiao.webarch.whale_add_rules', owner="zhangbo.39", team='rc_alg_test')
+
+result = client.offsets_for_times(search_time)
+consumer = client.get_kafka_consumer()
+
+for topic_partition, offset_and_timestamp in result.items():
+    consumer.seek(topic_partition, offset_and_timestamp.offset)
+consumer.update_positions()
+consumer.commit()
+
+offsets = {}
+for partition, _ in result.items():
+    offset = consumer.committed(partition)
+    offsets[partition.partition] = offset
+
+print('New Offset: ')
+print(offsets)
+
+while True:
+    kafka_msg_list = client.fetch_msgs(count=100)
+
+    if not kafka_msg_list:
+        time.sleep(30)
+        print(int(time.time()))
+        continue
+
+    for msg_str in kafka_msg_list:
+        pass
+```

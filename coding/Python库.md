@@ -19,3 +19,8 @@ https://git.skewed.de/count0/graph-tool/-/wikis/installation-instructions#macos-
 
 code:
 https://git.skewed.de/count0/graph-tool
+
+
+
+###
+- gensim

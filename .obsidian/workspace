@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "9eaa690440666d0c",
+        "id": "f4df1eb9a4041447",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/Node2vec.md",
-            "mode": "source"
+            "file": "papers/word2vec.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,9 @@
             "type": "leaf",
             "state": {
               "type": "search",
-              "state": {}
+              "state": {
+                "query": ""
+              }
             }
           }
         ]
@@ -62,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/Node2vec.md"
+                "file": "papers/word2vec.md"
               }
             }
           }
@@ -73,10 +75,15 @@
     "width": 300
   },
   "lastOpenFiles": [
-    "papers/Untitled.md",
-    "coding/Python库.md",
-    "coding/statsmodels.md",
-    "algorithm/Alias Sample Method 别名采样.md",
-    "模型/时间序列处理.md"
+    "papers/word2vec.md",
+    "papers/node2vec.md",
+    "interview/二分.md",
+    "interview/Untitled.md",
+    "algorithm/MinHash.md",
+    "algorithm/Untitled.md",
+    "papers/discusssion.md",
+    "concept/时间序列-自相关性.md",
+    "model/时间序列处理.md",
+    "concept/时间序列-平稳性.md"
   ]
 }
