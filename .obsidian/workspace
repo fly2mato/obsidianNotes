@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/word2vec.md",
+            "file": "concept/互信息.md",
             "mode": "preview"
           }
         }
@@ -40,7 +40,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ""
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               }
             }
           }
@@ -64,7 +69,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/word2vec.md"
+                "file": "concept/互信息.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -75,15 +85,15 @@
     "width": 300
   },
   "lastOpenFiles": [
+    "concept/互信息.md",
     "papers/word2vec.md",
+    "concept/Untitled.md",
+    "concept/交叉熵 cross-entropy.md",
     "papers/node2vec.md",
     "interview/二分.md",
     "interview/Untitled.md",
     "algorithm/MinHash.md",
     "algorithm/Untitled.md",
-    "papers/discusssion.md",
-    "concept/时间序列-自相关性.md",
-    "model/时间序列处理.md",
-    "concept/时间序列-平稳性.md"
+    "papers/discusssion.md"
   ]
 }
